@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap');
+
+:root {
+  --background-color: rgba(0, 30, 47, 0.9);
+  --font-size: 'Montserrat';
+}
+
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: none;
+  font-family: var(--font-size);
+}
+
+h1, p {
+  font-size: 1.4vh;
+  color: white;
+}
+
+.id-box {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  left: 0; right: 0;
+  bottom: 5vh;
+  width: 25vh;
+  height: 8vh;
+  border-radius: 5vh;
+  box-sizing: border-box;
+  padding-left: 7vh;
+  background: var(--background-color);
+}
+
+.id-box img {
+  position: absolute;
+  width: 9vh;
+  height: 9vh;
+  top: 50%;
+  left: -3.5vh;
+  transform: translateY(-50%);
+}
